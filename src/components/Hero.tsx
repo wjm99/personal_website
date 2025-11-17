@@ -67,7 +67,7 @@ const Hero = () => {
           </div>
           
           <div className="flex gap-6 justify-center">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary transition-colors">
+            <a href="https://github.com/wjm99" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
             <a href="https://linkedin.com/in/jinmingw" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary transition-colors">
