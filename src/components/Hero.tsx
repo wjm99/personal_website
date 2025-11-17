@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import profilePic from "@/assets/profile-pic.JPG"; // 添加你的个人照片路径
+import profilePic from "@/assets/profile-pic.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
