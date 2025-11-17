@@ -22,10 +22,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="animate-in fade-in duration-1000">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary-foreground">
-            Hi, I'm <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Your Name</span>
+            Hi, I'm <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Jinming Wei</span>
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-primary-foreground/90">
-            Full Stack Developer & Designer
+            Full Stack Developer & Data Scientist
           </p>
           <p className="text-lg mb-8 text-primary-foreground/75 max-w-2xl mx-auto">
             I craft beautiful, functional web experiences that solve real problems
@@ -49,13 +49,13 @@ const Hero = () => {
           </div>
           
           <div className="flex gap-6 justify-center">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary transition-colors">
+            <a href="https://github.com/wjm99" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary transition-colors">
+            <a href="https://linkedin.com/in/jinmingw" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:your.email@example.com" className="text-primary-foreground/70 hover:text-primary transition-colors">
+            <a href="mailto:jinmingw99@gmail.com" className="text-primary-foreground/70 hover:text-primary transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>

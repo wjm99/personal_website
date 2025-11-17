@@ -19,8 +19,8 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2">Email</h3>
-              <a href="mailto:your.email@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-                your.email@example.com
+              <a href="mailto:jinmingw99@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                jinmingw99@gmail.com
               </a>
             </div>
             
@@ -30,7 +30,7 @@ const Contact = () => {
               </div>
               <h3 className="font-semibold mb-2">Phone</h3>
               <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                +1 (234) 567-890
+                +46 760 633 971
               </a>
             </div>
             
@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <h3 className="font-semibold mb-2">Location</h3>
               <p className="text-muted-foreground">
-                San Francisco, CA
+                Gothenburg, Sweden
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Contact = () => {
               className="gap-2"
               asChild
             >
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:jinmingw99@gmail.com">
                 <Mail className="w-4 h-4" /> Send Message
               </a>
             </Button>
@@ -60,7 +60,7 @@ const Contact = () => {
       </div>
       
       <footer className="mt-20 pt-8 border-t border-border text-center text-muted-foreground">
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Jinming. All rights reserved.</p>
       </footer>
     </section>
   );
