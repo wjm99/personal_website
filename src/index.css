@@ -37,7 +37,7 @@ All colors MUST be HSL.
     --ring: 185 80% 45%;
 
     --radius: 0.75rem;
-    
+
     --gradient-primary: linear-gradient(135deg, hsl(185, 80%, 45%), hsl(185, 70%, 60%));
     --gradient-subtle: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(185, 15%, 98%));
     --shadow-elegant: 0 10px 40px -10px hsl(185 80% 45% / 0.2);
@@ -88,7 +88,7 @@ All colors MUST be HSL.
     --border: 220 20% 20%;
     --input: 220 20% 20%;
     --ring: 185 75% 50%;
-    
+
     --gradient-primary: linear-gradient(135deg, hsl(185, 75%, 50%), hsl(185, 70%, 65%));
     --gradient-subtle: linear-gradient(180deg, hsl(220, 25%, 8%), hsl(220, 20%, 10%));
     --sidebar-background: 240 5.9% 10%;

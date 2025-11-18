@@ -7,11 +7,9 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-in fade-in duration-700">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Have a project in mind? Let's work together to create something amazing
-          </p>
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Have a project in mind? Let's work together to create something amazing</p>
         </div>
-        
+
         <div className="max-w-3xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="text-center">
@@ -23,7 +21,7 @@ const Contact = () => {
                 jinmingw99@gmail.com
               </a>
             </div>
-            
+
             <div className="text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Phone className="w-6 h-6 text-primary" />
@@ -33,24 +31,18 @@ const Contact = () => {
                 +46 760 633 971
               </a>
             </div>
-            
+
             <div className="text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2">Location</h3>
-              <p className="text-muted-foreground">
-                Gothenburg, Sweden
-              </p>
+              <p className="text-muted-foreground">Gothenburg, Sweden</p>
             </div>
           </div>
-          
+
           <div className="text-center">
-            <Button 
-              size="lg" 
-              className="gap-2"
-              asChild
-            >
+            <Button size="lg" className="gap-2" asChild>
               <a href="mailto:jinmingw99@gmail.com">
                 <Mail className="w-4 h-4" /> Send Message
               </a>
@@ -58,7 +50,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      
+
       <footer className="mt-20 pt-8 border-t border-border text-center text-muted-foreground">
         <p>&copy; 2024 Jinming. All rights reserved.</p>
       </footer>
