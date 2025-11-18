@@ -44,7 +44,12 @@ const Hero = () => {
             <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90" onClick={() => scrollToSection("contact")}>
               Get In Touch <ArrowRight className="w-4 h-4" />
             </Button>
-            <Button size="lg" variant="outline" className="gap-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10" onClick={() => scrollToSection("projects")}>
+            <Button
+              size="lg"
+              variant="outline"
+              className="gap-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
+              onClick={() => scrollToSection("projects")}
+            >
               View Projects
             </Button>
           </div>

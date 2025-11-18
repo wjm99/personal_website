@@ -50,9 +50,7 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Jinming Wei
-          </div>
+          <div className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Jinming Wei</div>
 
           <div className="hidden md:flex items-center gap-1">
             {navItems.map((item) => {
@@ -62,9 +60,7 @@ const Navigation = () => {
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
                   className={`flex items-center gap-2 px-4 py-2 rounded-md transition-colors ${
-                    activeSection === item.id
-                      ? "text-primary bg-primary/10"
-                      : "text-foreground/70 hover:text-primary hover:bg-primary/5"
+                    activeSection === item.id ? "text-primary bg-primary/10" : "text-foreground/70 hover:text-primary hover:bg-primary/5"
                   }`}
                 >
                   <Icon className="w-4 h-4" />
@@ -82,9 +78,7 @@ const Navigation = () => {
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
                   className={`p-2 rounded-md transition-colors ${
-                    activeSection === item.id
-                      ? "text-primary bg-primary/10"
-                      : "text-foreground/70 hover:text-primary hover:bg-primary/5"
+                    activeSection === item.id ? "text-primary bg-primary/10" : "text-foreground/70 hover:text-primary hover:bg-primary/5"
                   }`}
                   aria-label={item.label}
                 >
