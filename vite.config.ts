@@ -16,5 +16,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   assetsInclude: ["**/*.jpg"],
-  base: process.env.BASE_PATH || "/my-digital-canvas",
+  base: process.env.BASE_PATH || "/",
 }));
