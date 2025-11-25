@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Home, User, Briefcase, Code, FolderOpen, Mail } from "lucide-react";
+import { Home, Briefcase, Code, FolderOpen, Mail } from "lucide-react";
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -9,7 +9,7 @@ const Navigation = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
 
-      const sections = ["home", "about", "experience", "skills", "projects", "contact"];
+      const sections = ["home", "experience", "skills", "projects", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -35,7 +35,6 @@ const Navigation = () => {
 
   const navItems = [
     { id: "home", label: "Home", icon: Home },
-    { id: "about", label: "About", icon: User },
     { id: "experience", label: "Experience", icon: Briefcase },
     { id: "skills", label: "Skills", icon: Code },
     { id: "projects", label: "Projects", icon: FolderOpen },
