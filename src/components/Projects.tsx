@@ -5,25 +5,22 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack online store with payment integration, inventory management, and admin dashboard",
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      github: "#",
-      live: "#",
+      title: "Empley",
+      description: "A full-stack website for HR and workforce planning",
+      tech: ["JAVA(Spring Boot)", "Vue.js", "PostgreSQL"],
+      live: "https://www.empley.com/",
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates and team features",
-      tech: ["Next.js", "TypeScript", "Supabase"],
-      github: "#",
-      live: "#",
+      title: "AI ChatBot on Twitter",
+      description: "Developed an AI-driven chatbot on Twitter for real-time interaction using generative AI modelsHave a project in mind?",
+      tech: ["Python", "LLM", "AWS"],
+      live: "https://x.com/IsItAccurate",
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather app with forecasts, maps, and location-based recommendations",
-      tech: ["Vue.js", "Tailwind", "Weather API"],
-      github: "#",
-      live: "#",
+      title: "Modeling and Evaluating Treatment Strategies for Rheumatoid Arthritis",
+      description: "Master's Thesis in healthcare field, applying interpretable ML models",
+      tech: ["Real-world Evidence", "ETL pipelines", "Statistical Analysis"],
+      live: "https://odr.chalmers.se/items/02be67c1-c54d-466c-86a4-2748491d8f17",
     },
   ];
 
@@ -51,14 +48,14 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" className="gap-2" asChild>
+                  {/* <Button variant="outline" size="sm" className="gap-2" asChild>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4" /> Code
                     </a>
-                  </Button>
+                  </Button> */}
                   <Button size="sm" className="gap-2" asChild>
                     <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4" /> Demo
+                      <ExternalLink className="w-4 h-4" /> Link
                     </a>
                   </Button>
                 </div>
