@@ -7,7 +7,6 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-in fade-in duration-700">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Have a project in mind? Let's work together to create something amazing</p>
         </div>
 
         <div className="max-w-3xl mx-auto">
@@ -52,7 +51,7 @@ const Contact = () => {
       </div>
 
       <footer className="mt-20 pt-8 border-t border-border text-center text-muted-foreground">
-        <p>&copy; 2024 Jinming. All rights reserved.</p>
+        <p>&copy; 2025 Jinming. All rights reserved.</p>
       </footer>
     </section>
   );
