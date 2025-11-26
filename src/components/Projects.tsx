@@ -9,21 +9,21 @@ const Projects = () => {
       description: "A full-stack website for HR and workforce planning",
       tech: ["JAVA(Spring Boot)", "Vue.js", "PostgreSQL"],
       live: "https://www.empley.com/",
-      image: "/public/empley.png",
+      image: "/empley.png",
     },
     {
       title: "AI ChatBot on Twitter",
       description: "Developed an AI-driven chatbot on Twitter for real-time interaction using generative AI models",
       tech: ["Python", "AWS", "LLM", "LangChain"],
       live: "https://x.com/IsItAccurate",
-      image: "/public/twitter.jpeg",
+      image: "/twitter.jpeg",
     },
     {
       title: "Modeling and Evaluating Treatment Strategies for Rheumatoid Arthritis",
       description: "Master's Thesis in healthcare field, applying interpretable ML models",
       tech: ["Real-world Evidence", "ETL", "Statistical Analysis"],
       live: "https://odr.chalmers.se/items/02be67c1-c54d-466c-86a4-2748491d8f17",
-      image: "/public/thesis.png",
+      image: "/thesis.png",
     },
   ];
 
