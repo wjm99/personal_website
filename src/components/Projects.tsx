@@ -9,18 +9,21 @@ const Projects = () => {
       description: "A full-stack website for HR and workforce planning",
       tech: ["JAVA(Spring Boot)", "Vue.js", "PostgreSQL"],
       live: "https://www.empley.com/",
+      image: "/public/empley.png",
     },
     {
       title: "AI ChatBot on Twitter",
-      description: "Developed an AI-driven chatbot on Twitter for real-time interaction using generative AI modelsHave a project in mind?",
-      tech: ["Python", "LLM", "AWS"],
+      description: "Developed an AI-driven chatbot on Twitter for real-time interaction using generative AI models",
+      tech: ["Python", "AWS", "LLM", "LangChain"],
       live: "https://x.com/IsItAccurate",
+      image: "/public/twitter.jpeg",
     },
     {
       title: "Modeling and Evaluating Treatment Strategies for Rheumatoid Arthritis",
       description: "Master's Thesis in healthcare field, applying interpretable ML models",
-      tech: ["Real-world Evidence", "ETL pipelines", "Statistical Analysis"],
+      tech: ["Real-world Evidence", "ETL", "Statistical Analysis"],
       live: "https://odr.chalmers.se/items/02be67c1-c54d-466c-86a4-2748491d8f17",
+      image: "/public/thesis.png",
     },
   ];
 
@@ -35,6 +38,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {projects.map((project, index) => (
             <Card key={index} className="hover:shadow-xl transition-all duration-300 border-border group">
+              <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-t-md" />
               <CardHeader>
                 <CardTitle className="group-hover:text-primary transition-colors">{project.title}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
@@ -48,14 +52,9 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  {/* <Button variant="outline" size="sm" className="gap-2" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="w-4 h-4" /> Code
-                    </a>
-                  </Button> */}
                   <Button size="sm" className="gap-2" asChild>
                     <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4" /> Link
+                      <ExternalLink className="w-4 h-4" /> {new URL(project.live).hostname}
                     </a>
                   </Button>
                 </div>
