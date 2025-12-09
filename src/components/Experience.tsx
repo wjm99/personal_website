@@ -22,9 +22,9 @@ const Experience = () => {
       role: "Data Scientist Intern",
       period: "Feb 2025 - Apr 2025",
       responsibilities: [
-        "Assisted in the collection, cleaning, and preprocessing of large datasets.",
+        "Processed and structured large-scale vehicle telemetry datasets for product insight teams.",
         "Designed and deployed an AI-powered chatbot using Python and LLM frameworks (LangChain, OpenAI API) to automate customer interaction and internal knowledge retrieval.",
-        "Performed A/B testing and evaluation of model performance to ensure reliability and measurable business impact.",
+        "Supported A/B testing and model evaluation to ensure reliability and measurable business impact.",
         "Communicated insights effectively through data visualizations and clear, concise reports to stakeholders.",
       ],
     },
