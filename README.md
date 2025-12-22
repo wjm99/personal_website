@@ -1,8 +1,5 @@
-# Jinming Wei personal website created using Lovable
+# Jinming Wei personal website
 
-## Project info
-
-**URL**: https://lovable.dev/projects/ebee4f89-ba7a-4398-8297-83ecc598e1c6
 
 ## What technologies are used for this project?
 
@@ -59,5 +56,3 @@ To fix formatting issues, run:
 ```bash
 npm run format:fix
 ```
-
-Or better yet — install the Prettier plugin in your editor (e.g. **Prettier - Code formatter** for VS Code) and enable **format on save**.
