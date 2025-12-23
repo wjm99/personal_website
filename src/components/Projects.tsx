@@ -12,13 +12,6 @@ const Projects = () => {
       image: "/empley.png",
     },
     {
-      title: "Glued",
-      description: "A tiny macOS menu bar app that keeps AirPods connected to Mac while audio plays",
-      tech: ["SWIFT", "macOS", "Menu Bar App"],
-      live: "https://github.com/wjm99/Glued",
-      image: "/glued.png",
-    },
-    {
       title: "AI ChatBot on Twitter",
       description: "Developed an AI-driven chatbot on Twitter for real-time interaction using generative AI models",
       tech: ["Python", "AWS", "LLM", "LangChain"],
@@ -31,6 +24,13 @@ const Projects = () => {
       tech: ["Real-world Evidence", "ETL", "Statistical Analysis"],
       live: "https://odr.chalmers.se/items/02be67c1-c54d-466c-86a4-2748491d8f17",
       image: "/thesis.png",
+    },
+    {
+      title: "Glued",
+      description: "A tiny macOS menu bar app that keeps AirPods connected to Mac while audio plays",
+      tech: ["SWIFT", "macOS", "Menu Bar App"],
+      live: "https://github.com/wjm99/Glued",
+      image: "/glued.png",
     },
   ];
 
