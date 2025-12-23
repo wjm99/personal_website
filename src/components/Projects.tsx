@@ -44,7 +44,7 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {projects.map((project, index) => (
-            <Card key={index} className="hover:shadow-xl transition-all duration-300 border-border group">
+            <Card key={index} className="hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-border group">
               <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-t-md" />
               <CardHeader>
                 <CardTitle className="group-hover:text-primary transition-colors">{project.title}</CardTitle>
