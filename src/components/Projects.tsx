@@ -42,7 +42,7 @@ const Projects = () => {
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Some of my recent work that I'm proud of</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <Card key={index} className="hover:shadow-xl transition-all duration-300 border-border group">
               <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-t-md" />
