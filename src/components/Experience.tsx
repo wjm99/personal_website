@@ -10,9 +10,10 @@ const Experience = () => {
       period: "Apr 2025 - Oct 2025",
       responsibilities: [
         "Developed a full-stack (JAVA+Vue) website for human resource and workforce planning with PostgreSQL.",
+        "Built and optimized RESTful APIs and PostgreSQL to improve data flow, and maintainability.",
         "Implemented JWT-based authentication and managed database versioning and migrations through Liquibase.",
+        "Integrated a fine-tuned AI chatbot and a task-oriented AI agent for HR in the product.",
         "Deployed the system to Microsoft Azure through automated CI/CD pipelines using GitHub Actions.",
-        "Configured domain and DNS management via Netim for reliable routing and SSL-enabled access.",
         "Collaborated in cross-functional teams, contributing to agile sprint planning and continuous improvement.",
       ],
     },
@@ -24,7 +25,8 @@ const Experience = () => {
       responsibilities: [
         "Processed and structured large-scale vehicle telemetry datasets for product insight teams.",
         "Designed and deployed an AI-powered chatbot using Python and LLM frameworks (LangChain, OpenAI API) to automate customer interaction and internal knowledge retrieval.",
-        "Supported A/B testing and model evaluation to ensure reliability and measurable business impact.",
+        "Developed a camera-based computer vision system for processing and interpreting visual sensor data from industrial cameras, supporting automated quality inspection in a factory environment.",
+        "Designed image preprocessing and model evaluation pipelines on real-world data",
         "Communicated insights effectively through data visualizations and clear, concise reports to stakeholders.",
       ],
     },
