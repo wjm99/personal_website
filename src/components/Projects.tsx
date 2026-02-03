@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "AI ChatBot on Twitter",
       description: "Developed an AI-driven chatbot on Twitter for real-time interaction using generative AI models",
-      tech: ["Python", "AWS", "LLM", "LangChain"],
+      tech: ["LLM", "Prompt", "Python", "AWS", "LangChain"],
       live: "https://x.com/IsItAccurate",
       image: "/twitter.jpeg",
     },
