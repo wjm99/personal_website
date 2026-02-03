@@ -43,7 +43,6 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 ml-2 px-3 py-1 rounded-full bg-primary/20 border border-primary/30 hover:bg-primary/40 hover:border-primary/50 hover:scale-105 transition-all text-primary-foreground/90 text-sm font-medium"
-              title="View my badminton records"
             >
               🏸️ My Records
             </a>
