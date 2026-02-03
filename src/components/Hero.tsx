@@ -37,7 +37,16 @@ const Hero = () => {
             Volvo Cars and a Full Stack Developer at Empley, I’ve built solid experience across both areas.
           </p>
           <p className="text-lg mb-8 text-primary-foreground/75 max-w-2xl mx-auto">
-            Outside work, I enjoy playing badminton and being part of team communities.🏸️
+            Outside work, I enjoy playing badminton and being part of team communities.
+            <a
+              href="https://badmintonsweden.tournamentsoftware.com/player-profile/8BDE596E-9E8A-4A2B-BCA2-D3DFFB13E686"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block ml-1 hover:scale-125 transition-transform"
+              title="View my badminton records"
+            >
+              🏸️
+            </a>
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap mb-8">
