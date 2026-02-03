@@ -4,7 +4,7 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Empley (a SaaS startup)",
+      company: "Empley (SaaS startup)",
       location: "Gothenburg, Sweden",
       role: "Full-stack Developer",
       period: "Apr 2025 - Oct 2025",
@@ -23,11 +23,22 @@ const Experience = () => {
       role: "Data Scientist Intern",
       period: "Feb 2025 - Apr 2025",
       responsibilities: [
-        "Processed and structured large-scale vehicle telemetry datasets for product insight teams.",
-        "Designed and deployed an AI-powered chatbot using Python and LLM frameworks (LangChain, OpenAI API) to automate customer interaction and internal knowledge retrieval.",
+        "Pre-processed large-scale vehicle telemetry datasets for product insight teams.",
+        "Developed an AI-powered chatbot using Python and LLM frameworks (LangChain, OpenAI API), applying retrieval-augmented generation (RAG) to automate customer interaction and internal knowledge retrieval.",
         "Developed a camera-based computer vision system for processing and interpreting visual sensor data from industrial cameras, supporting automated quality inspection in a factory environment.",
         "Designed image preprocessing and model evaluation pipelines on real-world data",
         "Communicated insights effectively through data visualizations and clear, concise reports to stakeholders.",
+      ],
+    },
+    {
+      company: "FoundersFinders(Startup)",
+      location: "Stockholm, Sweden",
+      role: "Machine Learning Engineer Intern",
+      period: "Jun 2024 - Aug 2024",
+      responsibilities: [
+        "Developed and deployed an AI-chatbot to do fact checking and information retrieval.",
+        "Deployed the chatbot on AWS to make it accessible on Twitter for real-time user interaction.",
+        "Optimized the chatbot's performance through prompt engineering and fine-tuning techniques.",
       ],
     },
   ];
