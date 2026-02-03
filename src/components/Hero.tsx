@@ -42,10 +42,10 @@ const Hero = () => {
               href="https://badmintonsweden.tournamentsoftware.com/player-profile/8BDE596E-9E8A-4A2B-BCA2-D3DFFB13E686"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block ml-1 hover:scale-125 transition-transform"
+              className="inline-flex items-center gap-1 ml-2 px-3 py-1 rounded-full bg-primary/20 border border-primary/30 hover:bg-primary/40 hover:border-primary/50 hover:scale-105 transition-all text-primary-foreground/90 text-sm font-medium"
               title="View my badminton records"
             >
-              🏸️
+              🏸️ My Records
             </a>
           </p>
 
