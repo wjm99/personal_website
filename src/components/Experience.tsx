@@ -4,6 +4,13 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      company: "Visma Proceedo AB",
+      location: "Gothenburg, Sweden",
+      role: "Full Stack Developer",
+      period: "Apr 2026 - Present",
+      responsibilities: ["Developed and maintained a web-based procurement software using Java, Spring Boot, Angular."],
+    },
+    {
       company: "Empley (SaaS startup)",
       location: "Gothenburg, Sweden",
       role: "Full-stack Developer",

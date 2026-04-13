@@ -31,10 +31,10 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary-foreground">
             Hi, I'm <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Jinming Wei</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-4 text-primary-foreground/90">Full Stack Developer & Data Scientist</p>
+          <p className="text-xl md:text-2xl mb-4 text-primary-foreground/90">Full Stack Developer @ Visma Proceedo AB</p>
           <p className="text-lg mb-8 text-primary-foreground/75 max-w-2xl mx-auto">
             I came to Sweden in 2022 to pursue a Master’s degree in Data Science and AI at Chalmers. Through my roles as a Data Scientist Intern at
-            Volvo Cars and a Full Stack Developer at Empley, I’ve built solid experience across both areas.
+            Volvo Cars and a Full Stack Developer at Visma Proceedo AB, I’ve built solid experience across both areas.
           </p>
           <p className="text-lg mb-8 text-primary-foreground/75 max-w-2xl mx-auto">
             Outside work, I enjoy playing badminton and being part of team communities.
